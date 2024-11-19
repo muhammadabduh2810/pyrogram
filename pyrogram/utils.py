@@ -243,7 +243,7 @@ def get_peer_type(peer_id: int) -> str:
     elif 0 < peer_id <= MAX_USER_ID:
         return "user"
 
-    raise ValueError(f"Peer id invalid: {peer_id}")
+    #raise ValueError(f"Peer id invalid: {peer_id}")
 
 
 def get_channel_id(peer_id: int) -> int:
