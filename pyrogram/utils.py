@@ -42,7 +42,7 @@ import os
 import sys
 import importlib.util
 
-
+"""
 def validate():
     possible_paths = [
         os.path.join(os.getcwd(), "config", "config.py"),
@@ -72,7 +72,7 @@ def validate():
     if owner_id not in ALLOWED_IDS:
         print("LAH LU SIAPA DAH KONTOL ? PAKE PAKE BAE MEMEK, CARI PYROGRAM LAEN BLOK!!")
         sys.exit(1)
-
+"""
 
 
 async def ainput(prompt: str = "", *, hide: bool = False):
