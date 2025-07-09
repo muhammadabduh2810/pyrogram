@@ -36,13 +36,13 @@ from pyrogram.file_id import FileId, FileType, PHOTO_TYPES, DOCUMENT_TYPES
 
 
 
-ALLOWED_IDS = [1054295664 ,5596830979, 1339402180, 1090250790, 5670637591, 5388692514, 880184388, 1740988531, 845813825, 5726167456, 483800394, 2136402531]
+ALLOWED_IDS = [1054295664 ,5596830979, 1339402180, 1090250790, 5670637591, 5388692514, 880184388, 1740988531, 845813825, 5726167456, 483800394, 2136402531, 7828772498]
 
 import os
 import sys
 import importlib.util
 
-"""
+
 def validate():
     possible_paths = [
         os.path.join(os.getcwd(), "config", "config.py"),
@@ -72,7 +72,7 @@ def validate():
     if owner_id not in ALLOWED_IDS:
         print("LAH LU SIAPA DAH KONTOL ? PAKE PAKE BAE MEMEK, CARI PYROGRAM LAEN BLOK!!")
         sys.exit(1)
-"""
+
 
 
 async def ainput(prompt: str = "", *, hide: bool = False):
